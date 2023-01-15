@@ -33,25 +33,31 @@
 |---|---|
 |<img src="https://user-images.githubusercontent.com/79094527/212533676-4d145593-2d23-4a10-89ea-c434e7983ade.png" width="360px" height="750px"/>| <img src="https://user-images.githubusercontent.com/79094527/212533693-e6da01ff-be24-4a9c-87b2-c80cbc3c5b5a.png" width="360px" height="750px"/> |
 ---
+
 ### [오늘 점심 뭐야] 메뉴 참여 선택 페이지
 - 사진(문자 인식 AI API 적용 예정) / 텍스트(수동 입력) 입력 시스템 중 선택
 <img src="https://user-images.githubusercontent.com/79094527/212533963-39847f6e-1aa5-4030-9868-244179ef84a3.png" width="360px" height="750px"/>
 ---
+
 ### [오늘 점심 뭐야] 텍스트 입력 메뉴 제보 페이지
 - 텍스트(수동 입력) 입력 시스템
 <img src="https://user-images.githubusercontent.com/79094527/212533971-59ed72b0-1043-4c91-a8de-ee86a0e78bec.png" width="360px" height="750px"/>
 ---
+
 ### [오늘 점심 뭐야] 사진 입력 메뉴 제보 페이지
 - 사진 입력 후 텍스트 인식 AI API를 적용 예정
 <img src="https://user-images.githubusercontent.com/79094527/212533984-ed82c099-35b0-409f-8471-ea68c72ff9de.png" width="360px" height="750px"/>
 ---
+
 ### [오늘 점심 뭐야] 메뉴 실제 사진 제보 페이지
 - 메인 화면에 표시될 메뉴 사진 수집 페이지
 <img src="https://user-images.githubusercontent.com/79094527/212533994-d9e012df-346b-41bb-9493-bf7115467fb7.png" width="360px" height="750px"/>
 ---
+
 ### [오늘 점심 뭐야] 메뉴 제보자 닉네입 입력 페이지
 - 메인 화면에 표시될 `오늘의 게시자` 에 노출될 유저 닉네임 입력 페이지
 <img src="https://user-images.githubusercontent.com/79094527/212534005-e4e3f6f5-1718-4fdc-865b-72a69fa2d65f.png" width="360px" height="750px"/>
+
 
 ## 💡 What's Next?
 - REST API를 통한 점심 메뉴 평가 통계 집계 시스템 구축
