@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu-editor-page</title>
+    <link rel="stylesheet" href="./assets/style/css/common.css" />
+    <link rel="stylesheet" href="./assets/style/css/menu-editor-page.css" />
+  </head>
+  <body>
+    <main class="viewer">
+      <div class="header-comp">
+        <span class="logo-title-text">오늘 점심 뭐야?</span>
+        <div class="main-title-bar"></div>
+      </div>
+      <div class="greet-guide-container">
+        <p class="greet-text">반가워요! 😀</p>
+        <p class="guide-text">메뉴를 등록할 방법을 골라주세요!</p>
+      </div>
+      <div class="text-input-btn" id="text-input-btn">
+        <button class="text-input-btn-button">
+          <img class="text-input-icon" src="./assets/img/fi-br-text.svg" />
+        </button>
+      </div>
+      <div class="photo-input-btn" id="photo-input-btn">
+        <button class="photo-input-btn-button">
+          <img class="photo-input-icon" src="./assets/img/fi-br-camera.svg" />
+        </button>
+      </div>
+    </main>
+  </body>
+  <script>
+    document.getElementById("text-input-btn").addEventListener("click", () => {
+      location.href = "./menu-input-text-page.html";
+    });
+    document.getElementById("photo-input-btn").addEventListener("click", () => {
+      location.href = "./menu-input-photo-page.html";
+    });
+  </script>
+</html>

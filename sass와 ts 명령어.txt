@@ -1,0 +1,25 @@
+1rem : 16px
+
+-- sass 설치
+npm install sass -g
+
+-- sass 버전 확인
+npm show sass version
+
+-- sass -> css 변환
+sass style1.scss style.css
+
+-- sass -> css 자동 변환(저장 시 업로드)
+sass --watch style.scss style.css (파일 -> 파일, 경로는 같음)
+sass --watch sass:css(폴더 -> 폴더)
+
+-- sass -> css 컨버팅 시 맵 파일 생성을 원치 않을 때,
+sass --no-source-map style.scss style.css
+
+
+/* ts */
+-- 타입스크립트 설치
+npm i -g typescript
+
+-- 타입스크립트 컴파일러 실행
+tsc greeter.ts

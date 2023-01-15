@@ -1,0 +1,58 @@
+@import "common.scss";
+
+.take-photo-guide-text-div {
+  width: 305px;
+  height: max-content;
+  margin: 8% auto;
+  text-align: center;
+
+  .take-photo-imoji-text {
+    font-size: 33px;
+    line-height: 100%;
+    margin-bottom: 5%;
+    /* identical to box height, or 33px */
+    color: $black;
+  }
+  .take-photo-guide-text {
+    /* Type@23 */
+    font-size: 23px;
+    line-height: 100%;
+    /* identical to box height, or 23px */
+
+    color: $black;
+  }
+}
+
+.take-photo-container {
+  .photo-view-comp {
+    height: 377px;
+    width: 303px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background: #fbfbfb;
+    border: 1px solid #9c9494;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin: 0 auto;
+  }
+
+  .take-photo-button {
+    display: block;
+    height: 72px;
+    width: 143px;
+    background: #fffbe6;
+    border: 1px solid #9c9494;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin: 5% auto;
+    transition: 0.1s;
+    cursor: pointer;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    &:active {
+      background-color: $dark-beige;
+    }
+  }
+}

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* 색상 설정 */
+/* 사이즈 변수 */
+/* 폰트 삽입 */
+@font-face {
+  font-family: "PuradakGentleGothicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "PuradakGentleGothicR";
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* 헤더 설정 */
+.viewer {
+  display: block;
+  margin: 3px auto;
+  width: 360px;
+  height: 740px;
+  background: #fbfbfb;
+  border: 1px solid #363636;
+  border-radius: 5px;
+}
+
+/* 메뉴 상단 타이틀 부분 속성 */
+.header-comp {
+  display: block;
+  width: max-content;
+  height: max-content;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.header-comp .logo-title-text {
+  position: absolute;
+  font-size: 28px;
+  line-height: 55px;
+  margin-left: 10px;
+  color: #fbfbfb;
+}
+.header-comp .main-title-bar {
+  width: 360px;
+  height: 55px;
+  background: #7bbcd5;
+}
+
+/* 버튼 기본 옵션 */
+button {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+/* input-text와 겹치는 guide-text 속성 */
+.input-menu-guide-div {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  margin-top: 30px;
+}
+.input-menu-guide-div .input-menu-imoji-text {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+  font-size: 42px;
+  color: #363636;
+}
+.input-menu-guide-div .input-menu-guide-text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 100%;
+  /* identical to box height, or 23px */
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.submit-photo-input-container {
+  width: 303px;
+  height: 483px;
+  margin: 10% auto;
+}
+.submit-photo-input-container .photo-area-comp {
+  width: 303px;
+  height: 377px;
+  left: 29px;
+  top: 193px;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+  box-sizing: border-box;
+  background: #fbfbfb;
+  border: 1px solid #9c9494;
+  border-radius: 18px;
+}
+.submit-photo-input-container .photo-input-button {
+  display: block;
+  width: 143px;
+  height: 72px;
+  box-sizing: border-box;
+  background: rgba(255, 251, 230, 0.8);
+  border: 1px solid #9c9494;
+  box-shadow: 0px 2px 4px rgba(54, 54, 54, 0.25);
+  border-radius: 18px;
+  margin: 8% auto;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.submit-photo-input-container .photo-input-button .photo-input-icon {
+  width: 48px;
+  height: 48px;
+}
+.submit-photo-input-container .photo-input-button:active {
+  background-color: rgba(214, 211, 192, 0.8);
+}
+
+/*# sourceMappingURL=menu-input-photo-page.css.map */

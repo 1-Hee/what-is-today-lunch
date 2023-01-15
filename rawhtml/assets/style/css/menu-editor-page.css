@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 색상 설정 */
+/* 사이즈 변수 */
+/* 폰트 삽입 */
+@font-face {
+  font-family: "PuradakGentleGothicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "PuradakGentleGothicR";
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* 헤더 설정 */
+.viewer {
+  display: block;
+  margin: 3px auto;
+  width: 360px;
+  height: 740px;
+  background: #fbfbfb;
+  border: 1px solid #363636;
+  border-radius: 5px;
+}
+
+/* 메뉴 상단 타이틀 부분 속성 */
+.header-comp {
+  display: block;
+  width: max-content;
+  height: max-content;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.header-comp .logo-title-text {
+  position: absolute;
+  font-size: 28px;
+  line-height: 55px;
+  margin-left: 10px;
+  color: #fbfbfb;
+}
+.header-comp .main-title-bar {
+  width: 360px;
+  height: 55px;
+  background: #7bbcd5;
+}
+
+/* 버튼 기본 옵션 */
+button {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.greet-guide-container {
+  width: 360px;
+  height: max-content;
+  text-align: center;
+  margin-top: 30px;
+}
+.greet-guide-container .greet-text {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.greet-guide-container .guide-text {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.text-input-btn {
+  width: 173px;
+  height: 155px;
+  margin: 0 auto;
+  margin-top: 40px;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.text-input-btn .text-input-btn-button {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #fbfbfb;
+  border: 1px solid #9c9494;
+  border-radius: 18px;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.text-input-btn .text-input-btn-button:active {
+  background-color: #b0abab;
+}
+.text-input-btn .text-input-icon {
+  position: absolute;
+  left: 31.79%;
+  right: 31.21%;
+  top: 29.68%;
+  bottom: 29.03%;
+}
+
+.photo-input-btn {
+  width: 173px;
+  height: 155px;
+  margin: 0 auto;
+  margin-top: 50px;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.photo-input-btn .photo-input-btn-button {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #fbfbfb;
+  border: 1px solid #9c9494;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.photo-input-btn .photo-input-btn-button:active {
+  background-color: #b0abab;
+}
+.photo-input-btn .photo-input-icon {
+  left: 31.79%;
+  right: 31.21%;
+  top: 29.68%;
+  bottom: 29.03%;
+}
+
+/*# sourceMappingURL=menu-editor-page.css.map */

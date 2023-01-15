@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu-input-text-page</title>
+    <link rel="stylesheet" href="./assets/style/css/common.css" />
+    <link rel="stylesheet" href="./assets/style/css/menu-input-text-page.css" />
+  </head>
+  <body>
+    <main class="viewer">
+      <div class="header-comp">
+        <span class="logo-title-text">오늘 점심 뭐야?</span>
+        <div class="main-title-bar"></div>
+      </div>
+      <div class="input-menu-guide-div">
+        <p class="input-menu-imoji-text">😋</p>
+        <p class="input-menu-guide-text">오늘의 점심은 무엇인가요?</p>
+      </div>
+      <div class="submit-text-input-container">
+        <div class="text-area-comp">
+          <textarea> </textarea>
+        </div>
+        <div class="submit-lunch-button" id="submit-lunch-button">
+          <span aria-readonly="true">등록하기</span>
+        </div>
+      </div>
+    </main>
+    <script>
+      document.getElementById("submit-lunch-button").addEventListener("click", () => {
+        location.href = "./menu-take-photo-page.html";
+      });
+    </script>
+  </body>
+</html>

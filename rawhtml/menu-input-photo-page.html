@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu-input-photo-page</title>
+    <link rel="stylesheet" href="./assets/style/css/common.css" />
+    <link rel="stylesheet" href="./assets/style/css/menu-input-photo-page.css" />
+  </head>
+  <body>
+    <main class="viewer">
+      <div class="header-comp">
+        <span class="logo-title-text">오늘 점심 뭐야?</span>
+        <div class="main-title-bar"></div>
+      </div>
+      <div class="input-menu-guide-div">
+        <p class="input-menu-imoji-text">😋</p>
+        <p class="input-menu-guide-text">오늘의 점심은 무엇인가요?</p>
+      </div>
+      <div class="submit-photo-input-container">
+        <div class="photo-area-comp"></div>
+        <button class="photo-input-button" id="photo-input-button">
+          <img class="photo-input-icon" src="./assets/img/fi-br-camera.svg" />
+        </button>
+      </div>
+    </main>
+    <script>
+      document.getElementById("photo-input-button").addEventListener("click", () => {
+        location.href = "./menu-take-photo-page.html";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@import "common.scss";
+
+.input-menu-guide-div {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  margin-top: 30px;
+
+  .input-menu-imoji-text {
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    font-size: 42px;
+    color: $black;
+  }
+  .input-menu-guide-text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+    /* identical to box height, or 23px */
+    color: $black;
+    margin-bottom: 10px;
+  }
+}
+
+.submit-text-input-container {
+  width: 318px;
+  height: 456px;
+  margin: 0 auto;
+  margin-top: 30px;
+  .text-area-comp {
+    height: 374px;
+    /* text-area-comp */
+    box-sizing: border-box;
+    background: $white;
+    border: 1px solid $gray;
+    border-radius: 10px;
+    textarea {
+      display: block;
+      width: 90%;
+      height: 90%;
+      padding-left: 8px;
+      padding-top: 8px;
+      border: none;
+      resize: none;
+      margin: 5% auto;
+      background-color: $white;
+      transition: 0.5s;
+      outline-color: $skyblue;
+      &:focus {
+        outline-color: $skyblue20;
+      }
+    }
+  }
+  .submit-lunch-button {
+    box-sizing: border-box;
+    width: 318px;
+    height: 58px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: $beige;
+    border: 1px solid $gray;
+    box-shadow: 0px 2px 4px rgba($black, 0.25);
+    border-radius: 10px;
+    transition: 0.1s;
+    cursor: pointer;
+    span {
+      display: block;
+      width: 100%;
+      height: 58px;
+      text-align: center;
+      font-size: 23px;
+      line-height: 58px;
+      /* 드래그 방지 */
+    }
+    &:active {
+      background-color: $dark-beige;
+    }
+  }
+}

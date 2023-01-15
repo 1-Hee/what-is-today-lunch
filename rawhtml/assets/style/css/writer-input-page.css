@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* 색상 설정 */
+/* 사이즈 변수 */
+/* 폰트 삽입 */
+@font-face {
+  font-family: "PuradakGentleGothicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "PuradakGentleGothicR";
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* 헤더 설정 */
+.viewer {
+  display: block;
+  margin: 3px auto;
+  width: 360px;
+  height: 740px;
+  background: #fbfbfb;
+  border: 1px solid #363636;
+  border-radius: 5px;
+}
+
+/* 메뉴 상단 타이틀 부분 속성 */
+.header-comp {
+  display: block;
+  width: max-content;
+  height: max-content;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.header-comp .logo-title-text {
+  position: absolute;
+  font-size: 28px;
+  line-height: 55px;
+  margin-left: 10px;
+  color: #fbfbfb;
+}
+.header-comp .main-title-bar {
+  width: 360px;
+  height: 55px;
+  background: #7bbcd5;
+}
+
+/* 버튼 기본 옵션 */
+button {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.final-guide-text-div {
+  width: 285px;
+  height: 242px;
+  text-align: center;
+  color: #363636;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10% auto;
+}
+.final-guide-text-div * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 33px;
+}
+.final-guide-text-div .final-guide-text-1 {
+  line-height: 100%;
+}
+.final-guide-text-div .final-guide-text-2 {
+  line-height: 100%;
+}
+.final-guide-text-div .final-guide-imoji-3 {
+  font-size: 40px;
+  line-height: 100%;
+}
+.final-guide-text-div .final-guide-text-4 {
+  line-height: 100%;
+}
+.final-guide-text-div .final-guide-text-5 {
+  line-height: 100%;
+}
+
+.user-nickname-input-container {
+  width: 300px;
+  height: 113px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+}
+.user-nickname-input-container .user-nickname-input {
+  width: 300px;
+  height: 94px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+  background: #fbfbfb;
+  border: 1px solid #9c9494;
+  border-radius: 18px;
+  box-sizing: border-box;
+  padding-left: 8%;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.user-nickname-input-container .user-nickname-input:focus {
+  outline: #7bbcd5;
+  border: 1px solid #7bbcd5;
+}
+.user-nickname-input-container .user-nickname-guide-text {
+  font-size: 9px;
+  line-height: 100%;
+  text-align: center;
+  color: #b0abab;
+  padding-top: 10px;
+}
+
+.final-writer-button-group-div {
+  width: 292px;
+  height: 70px;
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.final-writer-button-group-div button {
+  box-sizing: border-box;
+  height: 70px;
+  width: 131px;
+  border: 1px solid #9c9494;
+  border-radius: 18px;
+}
+.final-writer-button-group-div button span {
+  font-size: 16px;
+}
+.final-writer-button-group-div .skip-user-name-btn {
+  background: #fbfbfb;
+}
+.final-writer-button-group-div .skip-user-name-btn:active {
+  background-color: #ededed;
+}
+.final-writer-button-group-div .add-user-name-btn {
+  background: rgba(255, 251, 230, 0.8);
+}
+.final-writer-button-group-div .add-user-name-btn:active {
+  background-color: rgba(214, 211, 192, 0.8);
+}
+
+/*# sourceMappingURL=writer-input-page.css.map */

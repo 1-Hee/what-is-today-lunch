@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>writer-input-page</title>
+    <link rel="stylesheet" href="./assets/style/css/common.css" />
+    <link rel="stylesheet" href="./assets/style/css/writer-input-page.css" />
+  </head>
+  <body>
+    <main class="viewer">
+      <div class="header-comp">
+        <span class="logo-title-text">오늘 점심 뭐야?</span>
+        <div class="main-title-bar"></div>
+      </div>
+      <div class="final-guide-text-div">
+        <p class="final-guide-text-1">메뉴 등록이</p>
+        <p class="final-guide-text-2">완료되었어요!</p>
+        <p class="final-guide-imoji-3">🎉</p>
+        <p class="final-guide-text-4">당신의 멋진 별명을</p>
+        <p class="final-guide-text-5">제게 알려줄래요?</p>
+      </div>
+      <div class="user-nickname-input-container">
+        <input class="user-nickname-input" type="text" />
+        <p class="user-nickname-guide-text">닉네임은 4자 이상 16자 이하로 제한됩니다.</p>
+      </div>
+      <div class="final-writer-button-group-div">
+        <button class="skip-user-name-btn">
+          <span>이름은 됐어요!</span>
+        </button>
+        <button class="add-user-name-btn">
+          <span>등록할게요!</span>
+        </button>
+      </div>
+    </main>
+    <script>
+      document.querySelectorAll(".final-writer-button-group-div>button").forEach((el) => {
+        el.addEventListener("click", () => {
+          location.href = "./main-page.html";
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main-page</title>
+    <link rel="stylesheet" href="./assets/style/css/main-page.css" />
+  </head>
+  <body>
+    <main class="viewer">
+      <div class="header-comp">
+        <span class="logo-title-text">오늘 점심 뭐야?</span>
+        <div class="main-title-bar"></div>
+      </div>
+      <div class="like-contributor-container">
+        <div class="contributor-container">
+          <div class="contributor-viewer"></div>
+          <p class="contributor-guide-text">오늘의 게시자</p>
+          <p class="contributor-name-text">sonny</p>
+          <p class="contributor-call-sign-text">님</p>
+        </div>
+        <div class="like-container">
+          <div class="like-number-viewer"></div>
+          <div class="heart-btn">
+            <img src="./assets/img/heart-btn.svg" />
+          </div>
+          <p class="lunch-heart-text">Lunch Heart</p>
+          <p class="heart-cnt-text" id="heart-cnt-text">0</p>
+        </div>
+      </div>
+
+      <div class="menu-container">
+        <p class="menu-title">오늘의 점심 메뉴</p>
+        <div class="main-menu-text-viewer">
+          <textarea class="menu-content-text" disabled>
+고기산적조림[돈육:국산]&#13;&#10;쌀밥/누른밥&#13;&#10;두부김칫국&#13;&#10;쥐어채볶음&#13;&#10;무말랭이무침&#13;&#10;포기김치
+        </textarea
+          >
+          <div class="edit-menu-btn" id="edit-menu-btn">
+            <button style="background-image: url(./assets/img/fi-br-edit.svg)"></button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-pictures">
+        <img class="food-img" src="https://img.hankyung.com/photo/202103/AKR20210318065500064_01_i_P4.jpg" />
+      </div>
+      <div class="pop-heart-btn">
+        <button style="background-image: url(./assets/img/heart-btn.svg)"></button>
+        <!-- <img src="./assets/img/heart-btn.svg" /> -->
+      </div>
+    </main>
+    <script>
+      document.getElementById("edit-menu-btn").addEventListener("click", () => {
+        location.href = "./menu-editor-page.html";
+      });
+
+      document.querySelector(".pop-heart-btn>button").addEventListener("click", () => {
+        let HeartCntText = document.getElementById("heart-cnt-text");
+        let textContent = Number(HeartCntText.textContent);
+        if (textContent < 999) {
+          let nextNumber = (textContent += 1);
+          HeartCntText.textContent = nextNumber;
+        } else {
+          HeartCntText.textContent = "999+";
+        }
+      });
+    </script>
+  </body>
+</html>

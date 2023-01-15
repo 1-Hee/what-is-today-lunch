@@ -1,0 +1,96 @@
+@import "common.scss";
+
+.final-guide-text-div {
+  width: 285px;
+  height: 242px;
+  text-align: center;
+  color: $black;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10% auto;
+  * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 33px;
+  }
+
+  .final-guide-text-1 {
+    line-height: 100%;
+  }
+  .final-guide-text-2 {
+    line-height: 100%;
+  }
+  .final-guide-imoji-3 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  .final-guide-text-4 {
+    line-height: 100%;
+  }
+  .final-guide-text-5 {
+    line-height: 100%;
+  }
+}
+
+.user-nickname-input-container {
+  width: 300px;
+  height: 113px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+
+  .user-nickname-input {
+    width: 300px;
+    height: 94px;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    background: #fbfbfb;
+    border: 1px solid #9c9494;
+    border-radius: $size1;
+    box-sizing: border-box;
+    padding-left: 8%;
+    font-size: 24px;
+    transition: 0.3s;
+    &:focus {
+      outline: $skyblue;
+      border: 1px solid $skyblue;
+    }
+  }
+  .user-nickname-guide-text {
+    font-size: 9px;
+    line-height: 100%;
+    text-align: center;
+    color: $gray20;
+    padding-top: 10px;
+  }
+}
+
+.final-writer-button-group-div {
+  width: 292px;
+  height: 70px;
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-evenly;
+  button {
+    box-sizing: border-box;
+    height: 70px;
+    width: 131px;
+    border: 1px solid $gray;
+    border-radius: 18px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .skip-user-name-btn {
+    background: $white;
+    &:active {
+      background-color: $gray10;
+    }
+  }
+
+  .add-user-name-btn {
+    background: $beige;
+    &:active {
+      background-color: $dark-beige;
+    }
+  }
+}

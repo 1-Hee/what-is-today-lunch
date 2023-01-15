@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 색상 설정 */
+/* 사이즈 변수 */
+/* 폰트 삽입 */
+@font-face {
+  font-family: "PuradakGentleGothicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "PuradakGentleGothicR";
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* 헤더 설정 */
+.viewer {
+  display: block;
+  margin: 3px auto;
+  width: 360px;
+  height: 740px;
+  background: #fbfbfb;
+  border: 1px solid #363636;
+  border-radius: 5px;
+}
+
+/* 메뉴 상단 타이틀 부분 속성 */
+.header-comp {
+  display: block;
+  width: max-content;
+  height: max-content;
+  filter: drop-shadow(0px 2px 4px rgba(54, 54, 54, 0.25));
+}
+.header-comp .logo-title-text {
+  position: absolute;
+  font-size: 28px;
+  line-height: 55px;
+  margin-left: 10px;
+  color: #fbfbfb;
+}
+.header-comp .main-title-bar {
+  width: 360px;
+  height: 55px;
+  background: #7bbcd5;
+}
+
+/* 버튼 기본 옵션 */
+button {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.take-photo-guide-text-div {
+  width: 305px;
+  height: max-content;
+  margin: 8% auto;
+  text-align: center;
+}
+.take-photo-guide-text-div .take-photo-imoji-text {
+  font-size: 33px;
+  line-height: 100%;
+  margin-bottom: 5%;
+  /* identical to box height, or 33px */
+  color: #363636;
+}
+.take-photo-guide-text-div .take-photo-guide-text {
+  /* Type@23 */
+  font-size: 23px;
+  line-height: 100%;
+  /* identical to box height, or 23px */
+  color: #363636;
+}
+
+.take-photo-container .photo-view-comp {
+  height: 377px;
+  width: 303px;
+  border-radius: 18px;
+  box-sizing: border-box;
+  background: #fbfbfb;
+  border: 1px solid #9c9494;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  margin: 0 auto;
+}
+.take-photo-container .take-photo-button {
+  display: block;
+  height: 72px;
+  width: 143px;
+  background: #fffbe6;
+  border: 1px solid #9c9494;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  margin: 5% auto;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.take-photo-container .take-photo-button img {
+  width: 48px;
+  height: 48px;
+}
+.take-photo-container .take-photo-button:active {
+  background-color: rgba(214, 211, 192, 0.8);
+}
+
+/*# sourceMappingURL=menu-take-photo-page.css.map */
