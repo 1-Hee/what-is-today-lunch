@@ -32,7 +32,6 @@
 |||
 |---|---|
 |<img src="https://user-images.githubusercontent.com/79094527/212533676-4d145593-2d23-4a10-89ea-c434e7983ade.png" width="360px" height="750px"/>| <img src="https://user-images.githubusercontent.com/79094527/212533693-e6da01ff-be24-4a9c-87b2-c80cbc3c5b5a.png" width="360px" height="750px"/> |
----
 
 ### [오늘 점심 뭐야] 메뉴 참여 선택 페이지
 - 사진(문자 인식 AI API 적용 예정) / 텍스트(수동 입력) 입력 시스템 중 선택
